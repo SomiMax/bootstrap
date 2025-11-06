@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classi Colori Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .bg-custom {
+            background-color: #343a40;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Classi Colori del Testo in Bootstrap</h1>
+        
+        <div class="row">
+            <!-- Prima colonna: Classi di colore del testo -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="h5 mb-0">Classi Colori del Testo</h2>
+                    </div>
+                    <div class="card-body">
+                       
+                            <dt class="col-sm-4 text-muted">.text-muted</dt>
+                            <dd class="col-sm-8">Testo con colore attenuato</dd>
+                            
+                            <dt class="col-sm-4 text-primary">.text-primary</dt>
+                            <dd class="col-sm-8">Testo con colore primario</dd>
+                            
+                            <dt class="col-sm-4 text-success">.text-success</dt>
+                            <dd class="col-sm-8">Testo che indica successo</dd>
+                            
+                            <dt class="col-sm-4 text-info">.text-info</dt>
+                            <dd class="col-sm-8">Testo informativo</dd>
+                            
+                            <dt class="col-sm-4 text-warning">.text-warning</dt>
+                            <dd class="col-sm-8">Testo di avviso</dd>
+                            
+                            <dt class="col-sm-4 text-danger">.text-danger</dt>
+                            <dd class="col-sm-8">Testo che indica pericolo</dd>
+                            
+                            <dt class="col-sm-4 text-secondary">.text-secondary</dt>
+                            <dd class="col-sm-8">Testo secondario</dd>
+                            
+                            <dt class="col-sm-4 text-white bg-dark">.text-white</dt>
+                            <dd class="col-sm-8">Testo bianco</dd>
+                            
+                            <dt class="col-sm-4 text-dark">.text-dark</dt>
+                            <dd class="col-sm-8">Testo scuro</dd>
+                            
+                            <dt class="col-sm-4 text-body">.text-body</dt>
+                            <dd class="col-sm-8">Colore predefinito del corpo</dd>
+                            
+                            <dt class="col-sm-4 text-light bg-dark">.text-light</dt>
+                            <dd class="col-sm-8">Testo chiaro</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Seconda colonna: Classi di colore con sfondo -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h2 class="h5 mb-0">Classi Colori con Sfondo</h2>
+                    </div>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-muted bg-light">.text-muted</dt>
+                            <dd class="col-sm-8 bg-light">Testo con colore attenuato</dd>
+                            
+                            <dt class="col-sm-4 text-primary bg-light">.text-primary</dt>
+                            <dd class="col-sm-8 bg-light">Testo con colore primario</dd>
+                            
+                            <dt class="col-sm-4 text-success bg-light">.text-success</dt>
+                            <dd class="col-sm-8 bg-light">Testo che indica successo</dd>
+                            
+                            <dt class="col-sm-4 text-info bg-light">.text-info</dt>
+                            <dd class="col-sm-8 bg-light">Testo informativo</dd>
+                            
+                            <dt class="col-sm-4 text-warning bg-light">.text-warning</dt>
+                            <dd class="col-sm-8 bg-light">Testo di avviso</dd>
+                            
+                            <dt class="col-sm-4 text-danger bg-light">.text-danger</dt>
+                            <dd class="col-sm-8 bg-light">Testo che indica pericolo</dd>
+                            
+                            <dt class="col-sm-4 text-secondary bg-light">.text-secondary</dt>
+                            <dd class="col-sm-8 bg-light">Testo secondario</dd>
+                            
+                            <dt class="col-sm-4 text-white bg-dark">.text-white</dt>
+                            <dd class="col-sm-8 bg-dark">Testo bianco</dd>
+                            
+                            <dt class="col-sm-4 text-dark bg-light">.text-dark</dt>
+                            <dd class="col-sm-8 bg-light">Testo scuro</dd>
+                            
+                            <dt class="col-sm-4 text-body bg-light">.text-body</dt>
+                            <dd class="col-sm-8 bg-light">Colore predefinito del corpo</dd>
+                            
+                            <dt class="col-sm-4 text-light bg-dark">.text-light</dt>
+                            <dd class="col-sm-8 bg-dark">Testo chiaro</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Terza riga: Esempi di opacità -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h2 class="h5 mb-0">Testo con Opacità al 50%</h2>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-black-50">
+                            Questo testo ha opacità al 50% utilizzando la classe .text-black-50.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning">
+                        <h2 class="h5 mb-0">Testo Bianco con Opacità al 50% su Sfondo Warning</h2>
+                    </div>
+                    <div class="card-body bg-warning">
+                        <p class="text-white-50">
+                            Questo testo bianco ha opacità al 50% su sfondo warning utilizzando .text-white-50.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
